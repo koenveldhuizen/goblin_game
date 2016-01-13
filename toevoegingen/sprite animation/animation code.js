@@ -34,3 +34,14 @@ if (treasureReady) {
 						
 				}
 	}
+ctx.drawImage(
+			treasureImage, // the image
+			treasure.clipLoc, //the location on the x axle of the sprite image and not the game!
+			0,  //the location on the y axle of the sprite image and not the game!
+			treasure.width, //viewable part of the sprite
+			treasure.height, //viewable part of the sprite
+			treasure.x, //location on the screen
+			treasure.y, //location on the screen
+			treasure.width, //rendered size on the screen
+			treasure.height);//rendered size on the screen
+		}
