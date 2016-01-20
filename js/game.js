@@ -7,7 +7,7 @@
 	canvas.width = 512;
 	canvas.height = 480;
 	//stuur canvas naar index.html
-	document.body.appendChild(canvas);
+	document.getElementById("game").appendChild(canvas);
 // einde canvas
 //afbeeldingen
 	// Background image
